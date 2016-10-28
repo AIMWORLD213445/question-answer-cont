@@ -5,5 +5,9 @@ export default Ember.Component.extend({
     delete(question) {
         this.sendAction('deleteQuestion', question);
     },
+
+    update(question, params){
+      this.sendAction("update", question, params);
+    },
   }
 });

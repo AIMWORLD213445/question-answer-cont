@@ -1,4 +1,6 @@
 <div>
-  <p>{{question.author}} | {{question.question}}</p>
+  <p>{{question.author}} | {{question.query}}</p>
+  {{update-question question="question" update="update"}}
   <button{{action 'delete' question}}>Delete</button>
+  <hr>
 </div>
