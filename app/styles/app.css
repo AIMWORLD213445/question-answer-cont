@@ -14,3 +14,11 @@ a {
   color: white;
   font-size: 45px
 }
+
+.jumbotron{
+  background-color: azure;
+
+}
+.singleQuestion {
+  display:block;
+}
