@@ -1,5 +1,7 @@
 <div>
-  <p>{{question.author}} | {{question.query}}</p>
+  {{#link-to 'question' question.id}}
+    <p>{{question.author}} | {{question.query}}</p>
+  {{/link-to}}
   {{update-question question=question update="update"}}
   <button{{action 'delete' question}}>Delete</button>
   <hr>
