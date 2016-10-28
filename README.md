@@ -21,7 +21,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve` should have everything running, then just navigate to localhost:4200
+* `ember serve` should launch the server, then just navigate to localhost:4200
 
 
 ### Running Tests
