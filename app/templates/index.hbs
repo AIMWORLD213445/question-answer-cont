@@ -1,1 +1,10 @@
-<h1>What do you want to know?</h1>
+<div>
+  <h1>What do you want to know?</h1>
+  <h3>Questions:</h3>
+  {{#each model as |question|}}
+    {{question-tile question=question deleteQuestion="deleteQuestion"}}
+  {{/each}}
+</div>
+<div>
+  {{new-question saveQuestion="saveQuestion"}}
+</div>
