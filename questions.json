@@ -1,0 +1,14 @@
+{ "questions": [{
+    "question": "What are some useful sites for learning about ember online?",
+    "author": "Brian Dutz",
+    "note": "I specifically need this question answered for a new to do list app I'm having trouble with"
+  }, {
+    "question": "What are some useful sites for learning about angular online?",
+    "author": "Jane Doe",
+    "note": "I want to try expanding my javascript skills"
+  }, {
+    "question": "When does daylight savings start?",
+    "author": "John Doe",
+    "note": "I don't want to mess up my schedule by forgetting to reset my alarm clock"
+  }]
+}
