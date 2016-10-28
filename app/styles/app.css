@@ -1,0 +1,16 @@
+body{
+font-size: 225%
+}
+
+a {
+  color: #355;
+  &:hover {
+    color: grey;
+    text-decoration-line: underline;
+  }
+}
+
+.navbar-name {
+  color: white;
+  font-size: 45px
+}
