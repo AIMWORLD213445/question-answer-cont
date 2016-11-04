@@ -1,6 +1,6 @@
 # Question-answer
 
-A question and answer board where users can post questions as well as respond to the questions others have asked with answers.
+A question and answer board where users can post questions as well as respond to the questions others have asked with answers. Use additional tools to sort and format the output. 
 
 ## Prerequisites
 
