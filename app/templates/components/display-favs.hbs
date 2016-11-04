@@ -1,5 +1,6 @@
 {{#each favoriteAnswers.items as |item|}}
+  <span class="glyphicon glyphicon-star-empty"></span>
   {{item.username}} | {{item.content}}
-  <button class="btn btn-danger" {{action 'removeFromBestAnswers' item}}>remove from list</button>
+  <button class="btn btn-danger" {{action 'removeFromBestAnswers' item}}>remove from favs</button>
   <hr>
 {{/each}}
