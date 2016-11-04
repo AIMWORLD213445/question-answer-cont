@@ -4,7 +4,7 @@ export function answerNumber(params) {
   var question = params[0];
 
   if(question.get('answers').get('length') <= 0) {
-    return Ember.String.htmlSafe('<span class="glyphicon glyphicon-fire"></span>');
+    return Ember.String.htmlSafe('<span class="glyphicon glyphicon-ban-circle"></span>');
   }
 }
 
