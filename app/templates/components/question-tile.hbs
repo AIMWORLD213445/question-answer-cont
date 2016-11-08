@@ -3,6 +3,7 @@
     <p>{{question.author}} | {{question.query}}</p>
   {{/link-to}}
   {{count}}{{update-question question=question update="update"}}
+  <button class="btn btn-primary"{{action 'addToFavs' question}}>Add to Favorites</button>
   <button class="btn btn-warning"{{action 'delete' question}}>Delete</button>
   <hr>
 </div>

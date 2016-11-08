@@ -1,6 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  favoriteList: Ember.inject.service(),
+
+
   model() {
     return this.store.findAll('question');
     return this.store.findAll('answer');
@@ -27,5 +30,8 @@ export default Ember.Route.extend({
       question.save();
       this.transitionTo("index");
     },
+    removeFromFavs(item) {
+      this.get('favoriteList').remove(item);
+    }
   }
 });

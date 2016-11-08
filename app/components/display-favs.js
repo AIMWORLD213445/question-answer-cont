@@ -1,11 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  favoriteAnswers: Ember.inject.service(),
+  favoriteList: Ember.inject.service(),
 
   actions: {
-    removeFromBestAnswers(item) {
-      this.get('favoriteAnswers').remove(item);
+    removeFromFavs(item) {
+      this.get('favoriteList').remove(item);
     }
   }
 });

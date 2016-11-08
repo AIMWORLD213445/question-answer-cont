@@ -1,10 +1,20 @@
-<div>
-  <h1>What do you want to know?</h1>
-  <h3>Questions:</h3>
-  {{#each model as |question|}}
-  {{answer-number question}} {{question-tile question=question update="update" deleteQuestion="deleteQuestion"}}
-  {{/each}}
-</div>
-<div>
-  {{new-question saveQuestion="saveQuestion"}}
+<div class="row">
+  <div class="col-sm-6">
+    <h1>What do you want to know?</h1>
+    <h3>Questions:</h3>
+    {{#each model as |question|}}
+    {{answer-number question}} {{question-tile question=question update="update" deleteQuestion="deleteQuestion"}}
+    {{/each}}
+    <div>
+      {{new-question saveQuestion="saveQuestion"}}
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <br>
+    <br>
+    <br>
+    <h3>Favorite Questions:</h3>
+    {{display-favs}}
+    <hr>
+  </div>
 </div>
